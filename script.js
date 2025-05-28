@@ -1,5 +1,5 @@
 //! last date of Event
-const endDate = new Date("13-feb-2025 20:00:00").getTime();
+const endDate = new Date("28-May-2025 20:00:00").getTime();
 
 //! start date
 const startDate = new Date().getTime();
