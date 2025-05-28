@@ -39,7 +39,6 @@ h2 {
   padding: 30px;
   background: #dad7d7;
   border-radius: 5px;
-
   color: black;
   display: flex;
   flex-direction: column;
@@ -64,4 +63,25 @@ span {
   height: 100%;
   transition: width 1s ease-in-out;
   border-radius: 5px;
+}
+
+/* Responsiveness */
+@media only screen and (max-width: 950px) {
+  .container {
+    width: 85%;
+  }
+
+  .container h1,
+  h2 {
+    text-align: center;
+  }
+
+  .progress-container {
+    width: 95%;
+    margin: auto;
+  }
+
+  #countdown div {
+    padding: 12px 22px;
+  }
 }
