@@ -1,8 +1,9 @@
 //! last date of Event
-const endDate = new Date("29-May-2025 20:00:00").getTime();
+const endDate = new Date("10-june-2025 20:00:00").getTime();
 
-//! start date
-const startDate = new Date().getTime();
+
+//! start date (set when the page loads)
+const startDate = Date.now();
 
 //! Function to update the countdown timer
 function updateTimer() {
